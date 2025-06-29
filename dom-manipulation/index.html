@@ -15,26 +15,27 @@
   </select>
 
   <!-- Display Quote -->
-  <div id="quoteDisplay" style="margin: 20px 0; font-weight: bold;"></div>
+  <div id="quoteDisplay" style="margin:20px 0;font-weight:bold;"></div>
   <button id="newQuote">Show New Quote</button>
 
   <hr />
 
-  <!-- Import/Export -->
-  <h3>Import/Export</h3>
+  <!-- Import / Export -->
+  <h3>Import / Export</h3>
   <input type="file" id="importFile" accept=".json" onchange="importFromJsonFile(event)" />
   <button id="exportQuotes">Export Quotes</button>
 
   <hr />
 
-  <!-- Add Quote Form -->
+  <!-- Add Quote Form (created by JS) -->
   <div id="formContainer"></div>
 
   <hr />
+
   <!-- Server Sync -->
   <h3>Sync with Server</h3>
   <button id="syncBtn">Sync Now</button>
-  <div id="syncStatus" style="color: green; margin-top: 10px;"></div>
+  <div id="syncStatus" style="color:green;margin-top:10px;"></div>
 
   <script src="script.js"></script>
 </body>
